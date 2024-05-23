@@ -9,14 +9,14 @@ let gifsongs = document.getElementById('gifsongs');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    { songName: "Let me love you", filePath: "songs/1.mp3", coverpath: "covers/1pic.jpeg" },
-    { songName: "Friends", filePath: "songs/2.mp3", coverpath: "covers/2pic.jpeg" },
-    { songName: "Despacito", filePath: "songs/3.mp3", coverpath: "covers/3pic.jpg" },
-    { songName: "Taki Taki", filePath: "songs/4.mp3", coverpath: "covers/4pic.jpeg" },
-    { songName: "Lily", filePath: "songs/5.mp3", coverpath: "covers/5pic.jpeg" },
-    { songName: "Ya Lili", filePath: "songs/6.mp3", coverpath: "covers/6pic.jpeg" },
-    { songName: "Darkside", filePath: "songs/7.mp3", coverpath: "covers/7pic.jpeg" },
-    { songName: "Sugar", filePath: "songs/8.mp3", coverpath: "covers/8pic.jpeg" }
+    { songName: "Let me love you", filePath: "1.mp3", coverpath: "1pic.jpeg" },
+    { songName: "Friends", filePath: "2.mp3", coverpath: "2pic.jpeg" },
+    { songName: "Despacito", filePath: "3.mp3", coverpath: "3pic.jpg" },
+    { songName: "Taki Taki", filePath: "4.mp3", coverpath: "4pic.jpeg" },
+    { songName: "Lily", filePath: "5.mp3", coverpath: "5pic.jpeg" },
+    { songName: "Ya Lili", filePath: "6.mp3", coverpath: "6pic.jpeg" },
+    { songName: "Darkside", filePath: "7.mp3", coverpath: "7pic.jpeg" },
+    { songName: "Sugar", filePath: "8.mp3", coverpath: "8pic.jpeg" }
 ];
 
 songItems.forEach((element, i) => {
